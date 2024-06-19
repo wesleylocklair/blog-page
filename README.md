@@ -1,10 +1,12 @@
 # Blog Page
 
-##Description - 
+## Description - 
 I am working on creating a blog page that has multiple features such as putting in information thats stored locally, light and dark mode for the website, as well as it redirecting to a new link and laying out your inputed information!
 
-##Credits  
+## Credits  
 I used MDN for lots of research into elements
 https://developer.mozilla.org/en-US/
 
 ## Links
+Here is the Link to the website
+https://wesleylocklair.github.io/blog-page/
