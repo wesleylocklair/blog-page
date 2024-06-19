@@ -16,11 +16,19 @@ document.getElementById('submitbtn').addEventListener('click', (event) =>{
   localStorage.setItem('name', username.value);
   localStorage.setItem('title', usertitle.value);
   localStorage.setItem('blog', userblog.value);
+  
   switchwindow()
-   if(usertitle.value,userblog.value,username.value !== '') {
-    alert('it worked')
+   
+   if(username.value == '') {
+    alert('Enter Fields')
+   }
+   else if(usertitle.value == ''){
+    alert('Enter All fields')
+   }
+   else if(userblog.value == ''){
+    alert('Must Enter All Fields')
    }
    else {
-    alert('Please Enter All Fields')
+    alert('Transfer to blog website (Coming Soon)')
    }
  })
